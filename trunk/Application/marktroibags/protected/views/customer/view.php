@@ -23,8 +23,9 @@ $this->menu=array(
 	'attributes'=>array(
 		'id',
 		'fname',
-		'mname',
 		'lname',
-		'address',
+		'email',
+		'contact_no',
+		'company_id',
 	),
 )); ?>
