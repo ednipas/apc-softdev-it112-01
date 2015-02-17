@@ -115,7 +115,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=mtb_db',
+			'connectionString' => 'mysql:host=localhost;dbname=marktroi',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',

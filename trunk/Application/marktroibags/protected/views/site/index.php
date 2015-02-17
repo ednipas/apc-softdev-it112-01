@@ -31,7 +31,7 @@ $this->pageTitle=Yii::app()->name;
                                         
                             
 				array('label'=>'Sports/Travel','url'=>array('/grades')),
-                array('label'=>'Others ','url'=>array('/grades')),
+                array('label'=>'Others ','url'=>array('/account')),
                 array('label'=>'Promotional','url'=>array('/grades')),
 			
 			),
