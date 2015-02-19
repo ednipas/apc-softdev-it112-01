@@ -10,9 +10,9 @@ $this->breadcrumbs=array(
 ?>
 
 <h1>Contact Us</h1>
-<pre><b>Address:</b>Malvar cor Apolinario St. Bangkal Makati
-<b>Tel.No:</b> 8440991/8440997
-<b>Principal:</b> Manuel C. Bulan </pre>
+<pre><b>Address:</b>
+<b>Tel.No:</b> 
+ </pre>
 <?php if(Yii::app()->user->hasFlash('contact')): ?>
 
 <div class="flash-success">

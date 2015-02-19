@@ -31,10 +31,9 @@
             'style' => 'horizontal', // or default or navbar(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
-                array('label'=>'Cuatomer', 'url'=>array('/customer')),
-				array('label'=>'Products', 'url'=>array('/student/admin')),
-                array('label'=>'Others ','url'=>array('/grades')),
-                array('label'=>'Promotional','url'=>array('/grades')),
+                array('label'=>'Customer ', 'url'=>array('/customer')),
+				array('label'=>'Products ', 'url'=>array('/product')),
+                array('label'=>'Reports ','url'=>array('/report')),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>Yii::t('app','Login'), 'url'=>array('/user/login'),'visible'=>Yii::app()->user->isGuest),
