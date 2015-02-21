@@ -1,7 +1,9 @@
-<?php
+	<?php
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use yii\helpers\ArrayHelper;
+
 
 /* @var $this yii\web\View */
 /* @var $model app\models\city */
@@ -31,7 +33,10 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'city_code',
             'city_description',
-            'province_id',
+				[
+					'label' =>'Province',
+					'value' =>$model->province->province_description,
+					],
         ],
     ]) ?>
 
