@@ -18,7 +18,10 @@ $this->menu=array(
             'style' => 'vertical', // or default or navbar(
 			'items'=>array(
 				array('label'=>'Backpacks', 'url'=>array('/student/admin')),
-				array('label'=>'Shoulder Bags','url'=>array('/section'),
+				array('label'=>'Shoulder Bags','url'=>array('/product'),
+                    'items'=>array(
+                            array('label'=>'Eco-bags', 'url'=>array('/site/contact')),
+                          ),
                          
                                         ),
                 array('label'=>'Clutch Bags','url'=>array(''),
@@ -34,7 +37,4 @@ $this->menu=array(
 		)); ?>
 	</div>
 
-<?php $this->widget('zii.widgets.CListView', array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
-)); ?>
+
