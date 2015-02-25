@@ -17,9 +17,11 @@ $this->pageTitle=Yii::app()->name;
 
 <h1>Welcome to the Mark Troi Bags Online</h1>
 
-
-
-
+<img src="css/Pic_home.png" width="905" height="330" align="left">
+<img src="css/Backpack.png" width="225" height="310" align="left">
+<img src="css/recyclable.jpg" width="350" height="310" align="left">
+<img src="css/eco_bag.png" width="330" height="310" align="left">
+<br>
 
  
 <p>For more details on how to further develop this application, please read
