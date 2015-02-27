@@ -3770,3 +3770,425 @@ Stack trace:
 REQUEST_URI=/marktroibags/index.php?r=gii/model/index
 HTTP_REFERER=http://localhost/marktroibags/index.php?r=gii/default/index
 ---
+2015/02/25 12:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pages/view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/view_ecob...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=pages/view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 12:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pages/view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pages/view_ecob...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=pages/view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 12:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view_ecobag1')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 12:42:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view_ecobag1')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 12:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view_ecobag1')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 12:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view_ecobag1')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 12:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view_ecobag1')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 12:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('view_ecobag1')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 12:45:11 [error] [php] Undefined variable: dataProvider (C:\xampp\htdocs\marktroibags\protected\views\site\pages\view_ecobag1.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\marktroibags\index.php(13): CWebApplication->run()
+REQUEST_URI=/marktroibags/index.php?r=site/page&view=view_ecobag1
+in C:\xampp\htdocs\marktroibags\protected\views\site\pages\view_ecobag1.php (39)
+in C:\xampp\htdocs\marktroibags\index.php (13)
+2015/02/25 12:46:19 [error] [php] Undefined variable: dataProvider (C:\xampp\htdocs\marktroibags\protected\views\site\pages\view_ecobag1.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\marktroibags\index.php(13): CWebApplication->run()
+REQUEST_URI=/marktroibags/index.php?r=site/page&view=view_ecobag1
+in C:\xampp\htdocs\marktroibags\protected\views\site\pages\view_ecobag1.php (39)
+in C:\xampp\htdocs\marktroibags\index.php (13)
+2015/02/25 12:46:22 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php:105
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(203): CBaseListView->init()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\xampp\htdocs\marktroibags\protected\views\product\index.php(43): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\marktroibags\protected\controllers\ProductController.php(128): CController->render('index', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/marktroibags/index.php?r=product
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=site/page&view=about
+---
+2015/02/25 12:46:28 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php:105
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(203): CBaseListView->init()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\xampp\htdocs\marktroibags\protected\views\product\index.php(43): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\marktroibags\protected\controllers\ProductController.php(128): CController->render('index', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): ProductController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/marktroibags/index.php?r=product
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=site/page&view=about
+---
+2015/02/25 12:47:09 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php:105
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(203): CBaseListView->init()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\xampp\htdocs\marktroibags\protected\views\site\pages\view_ecobag1.php(41): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('pages/view_ecob...', NULL, true)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): CController->render('pages/view_ecob...')
+#9 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/marktroibags/index.php?r=site/page&view=view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 13:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('view_ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view_ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/view_ec...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 13:09:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('view_ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view_ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/view_ec...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 13:09:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/view
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 13:12:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('view_ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view_ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view_ecoba...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=site/view_ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/25 13:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "viewecobaga".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('viewecobaga')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('viewecobaga')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/viewecobag...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=site/viewecobaga
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:32:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=site/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=site/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:46:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=site/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:47:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:47:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:47:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:47:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/product/ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('views/product/e...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=views/product/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 14:51:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/marktroibags/index.php?r=ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 15:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 15:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 15:07:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/ecobag1...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/ecobag1.php
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 15:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ecobag1".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('ecobag1')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('ecobag1')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('product/ecobag1')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/marktroibags/index.php?r=product/ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---
+2015/02/27 15:17:00 [error] [exception.CException] exception 'CException' with message 'The property "itemView" cannot be empty.' in C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php:202
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CListView->init()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#2 C:\xampp\htdocs\marktroibags\protected\views\ecobag1\index.php(19): CBaseController->widget('zii.widgets.CLi...', Array)
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 C:\xampp\htdocs\marktroibags\protected\controllers\Ecobag1Controller.php(128): CController->render('index', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): Ecobag1Controller->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ecobag1')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\marktroibags\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/marktroibags/index.php?r=ecobag1
+HTTP_REFERER=http://localhost/marktroibags/index.php?r=product
+---

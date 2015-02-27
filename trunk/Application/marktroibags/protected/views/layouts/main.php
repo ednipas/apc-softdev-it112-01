@@ -32,7 +32,14 @@
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
                 array('label'=>'Customer ', 'url'=>array('/customer')),
-				array('label'=>'Products ', 'url'=>array('/product')),
+				array('label'=>'Products','url'=>array('/product'),
+                    'items'=>array(
+                            array('label'=>'Eco-bags', 'url'=>array('/ecobag1')),
+                            array('label'=>'Backpacks', 'url'=>array('/backpack')),
+                            array('label'=>'Thermal Bags', 'url'=>array('/thermalbag')),
+                          ),
+                                        ),
+                          
                 array('label'=>'Reports ','url'=>array('/report')),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
