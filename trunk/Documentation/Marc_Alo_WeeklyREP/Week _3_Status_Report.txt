@@ -1,0 +1,14 @@
+Week 3          Status Report on Yii Project
+
+-Started Initial UI 
+ * Created Homepage
+ * Created Navbar with linked buttons
+ * Creaated CRUD for
+     + Product
+     + Account
+     + Admin
+     + Order
+     + Report
+     + Site
+ * Modified Layouts
+

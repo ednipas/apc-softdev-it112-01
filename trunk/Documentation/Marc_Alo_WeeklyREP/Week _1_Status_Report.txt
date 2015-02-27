@@ -1,0 +1,8 @@
+Week 1          Status Report on Yii Project
+
+-Scouted for possible Clients to initiate project.
+-Installed Yii Framework on Machines
+-Installed Tortoise GIT on Machines.
+-Trained on using Yii Framework.
+-Trained on using Tortoise GIT.
+

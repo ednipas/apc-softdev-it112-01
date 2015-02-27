@@ -1,0 +1,11 @@
+Week  4          Status Report on Yii Project
+
+-Continuing UI Development 
+
+*Modified Homepage 
+*Modified Products Page
+*Created Models and Forms for Item Products
+  - Thermal Bags
+  - Backpacks
+  - Ecobags
+* Modified View Forms for Item Products Above

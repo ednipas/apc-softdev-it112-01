@@ -1,0 +1,6 @@
+Week 2          Status Report on Yii Project
+
+- Created Intial Database
+- Gathered necessary art assets
+- Planned UI appearence
+
