@@ -4,13 +4,13 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Mycomment */
+/* @var $model app\models\myaddress */
 
-$this->title = 'Create Mycomment';
-$this->params['breadcrumbs'][] = ['label' => 'Mycomments', 'url' => ['index']];
+$this->title = 'Create Myaddress';
+$this->params['breadcrumbs'][] = ['label' => 'Myaddresses', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="mycomment-create">
+<div class="myaddress-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

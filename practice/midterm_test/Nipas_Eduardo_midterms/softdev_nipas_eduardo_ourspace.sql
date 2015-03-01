@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.9
+-- version 4.2.11
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 28, 2015 at 01:52 AM
--- Server version: 5.6.14
--- PHP Version: 5.5.6
+-- Generation Time: Mar 01, 2015 at 06:40 AM
+-- Server version: 5.6.21
+-- PHP Version: 5.6.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -32,8 +32,7 @@ CREATE TABLE IF NOT EXISTS `myaddress` (
   `middlename` varchar(30) NOT NULL,
   `lastname` varchar(30) NOT NULL,
   `gender` varchar(1) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`)
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -47,10 +46,24 @@ CREATE TABLE IF NOT EXISTS `mycomment` (
   `myaddress_id` int(11) NOT NULL,
   `author` varchar(255) NOT NULL,
   `body` longtext NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`),
-  KEY `mycomment_ibfk_1` (`myaddress_id`)
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `myaddress`
+--
+ALTER TABLE `myaddress`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `mycomment`
+--
+ALTER TABLE `mycomment`
+ ADD PRIMARY KEY (`id`), ADD KEY `mycomment_ibfk_1` (`myaddress_id`);
 
 --
 -- Constraints for dumped tables
@@ -60,7 +73,7 @@ CREATE TABLE IF NOT EXISTS `mycomment` (
 -- Constraints for table `mycomment`
 --
 ALTER TABLE `mycomment`
-  ADD CONSTRAINT `mycomment_ibfk_1` FOREIGN KEY (`myaddress_id`) REFERENCES `myaddress` (`id`);
+ADD CONSTRAINT `mycomment_ibfk_1` FOREIGN KEY (`myaddress_id`) REFERENCES `myaddress` (`id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
