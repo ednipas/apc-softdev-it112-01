@@ -16,7 +16,7 @@ body {
 
 .footer {
     height: 60px;
-    background-color: #f5f5f5;
+    background-color: #FF99FF;
     border-top: 1px solid #ddd;
     padding-top: 20px;
 }
@@ -41,7 +41,7 @@ a.asc:after, a.desc:after {
     position: relative;
     top: 1px;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
+    font-family: "Times New Roman", Georgia, Serif;
     font-style: normal;
     font-weight: normal;
     line-height: 1;
@@ -79,12 +79,12 @@ a.desc:after {
 .hint-block {
     display: block;
     margin-top: 5px;
-    color: #999;
+    color: #FF99FF;
 }
 
 .error-summary {
     color: #a94442;
-    background: #fdf7f7;
+    background: #FF99FF;
     border-left: 3px solid #eed3d7;
     padding: 10px 20px;
     margin: 0 0 15px 0;
