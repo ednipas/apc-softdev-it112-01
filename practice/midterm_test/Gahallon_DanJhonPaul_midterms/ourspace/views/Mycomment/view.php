@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use app\models\Myaddress;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Mycomment */
@@ -28,8 +29,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'id',
-            'myaddress_id',
+            'id',         
+			['label' => 'Last Name', 'attribute' => 'myaddress_id', 'value' => 'myaddress.lastname'],
             'author',
             'body:ntext',
             'created_at',

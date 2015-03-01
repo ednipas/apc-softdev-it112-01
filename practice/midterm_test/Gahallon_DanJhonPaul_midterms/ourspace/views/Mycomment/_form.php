@@ -14,7 +14,7 @@ use app\models\Myaddress;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'id')->textInput() ?>
+    <?= $form->field($model, 'myaddress_id')->textInput() ?>
 	
   
         <?php
