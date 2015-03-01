@@ -18,8 +18,8 @@ class mycommentSearch extends mycomment
     public function rules()
     {
         return [
-            [['id', 'myaddress_id'], 'integer'],
-            [['author', 'body', 'created_at'], 'safe'],
+            [['id'], 'integer'],
+		[['author', 'body', 'created_at','myaddress_id'], 'safe'],
         ];
     }
 
