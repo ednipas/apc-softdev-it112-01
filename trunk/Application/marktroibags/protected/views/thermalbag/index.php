@@ -14,5 +14,9 @@ $this->menu=array(
 
 <h1>Thermalbags</h1>
 
-<img src="css/Thermal_bag.png" width="330" height="310" align="left">
-<img src="css/thermal_bag 2.jpg" width="330" height="310" align="left">
+
+<img src="css/Thermal_bag.png" width="330" height="310" align="center">
+<?php echo CHtml::button('Add to Cart', array('submit' => array('controller/action'))); ?>
+<img src="css/thermal_bag 2.jpg" width="330" height="310" align="center">
+<?php echo CHtml::button('Add to Cart', array('submit' => array('controller/action'))); ?>
+

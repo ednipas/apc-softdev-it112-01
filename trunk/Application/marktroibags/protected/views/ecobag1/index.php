@@ -12,9 +12,15 @@ $this->menu=array(
 );
 ?>
 
+
 <h1>Ecobags</h1>
 
 
 <img src="css/eco_bag.png" width="330" height="310" align="center">
+<?php echo CHtml::button('Add to Cart', array('submit' => array('controller/action'))); ?>
+<img src="css/recyclable.jpg" width="330" height="310" align="center">
+<?php echo CHtml::button('Add to Cart', array('submit' => array('controller/action'))); ?>
+<img src="css/Katcha_bag.jpg" width="330" height="325" align="center">
+<?php echo CHtml::button('Add to Cart', array('submit' => array('controller/action'))); ?>
 
 

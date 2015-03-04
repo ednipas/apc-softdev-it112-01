@@ -15,3 +15,4 @@ $this->menu=array(
 <h1>Backpacks</h1>
 
 <img src="css/Backpack.png" width="225" height="310" align="center">
+<?php echo CHtml::button('Add to Cart', array('submit' => array('controller/action'))); ?>
