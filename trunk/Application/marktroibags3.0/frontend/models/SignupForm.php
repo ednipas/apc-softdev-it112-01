@@ -10,9 +10,9 @@ use Yii;
  */
 class SignupForm extends Model
 {
-	public $fname
-	public $lname
-	public $contact_no	
+	public $fname;
+	public $lname;
+	public $contact_no;	
     public $username;
     public $email;
     public $password;

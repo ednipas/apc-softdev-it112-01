@@ -1,0 +1,65 @@
+2015-03-14 19:36:09 [::1][-][16fe6pio1ger1h173ja53te467][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'' in C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\models\SignupForm.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-03-14 19:36:08 [::1][-][16fe6pio1ger1h173ja53te467][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '16fe6pio1ger1h173ja53te467'
+    '_csrf' => 'fa902007ca4e3e120f9c561fe68653921c7d66a515c5d05f840d468e56642ca7s:32:\"V2g3F6DYA9w7Ico0E_KgXW8FM4bskdNT\";'
+]
+
+$_SESSION = [
+    'Yii.CCaptchaAction.b4d87757.site.captcha' => 'pzoctot'
+    'Yii.CCaptchaAction.b4d87757.site.captchacount' => 1
+    'bf371475ee4c2187e966b19457406a14__returnUrl' => '/marktroibags/index.php?r=product/create'
+    '__flash' => []
+    '__returnUrl' => '/marktroibags3.0/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=16fe6pio1ger1h173ja53te467; _csrf=fa902007ca4e3e120f9c561fe68653921c7d66a515c5d05f840d468e56642ca7s%3A32%3A%22V2g3F6DYA9w7Ico0E_KgXW8FM4bskdNT%22%3B'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '52761'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426358168.556
+    'REQUEST_TIME' => 1426358168
+]
