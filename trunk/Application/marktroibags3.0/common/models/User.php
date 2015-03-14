@@ -11,11 +11,15 @@ use yii\web\IdentityInterface;
  * User model
  *
  * @property integer $id
+ * @property integer $fname
+ * @property integer $lname
+ * @property integer $contact_no
  * @property string $username
+ * @property string $auth_key
+ * @property integer $role
  * @property string $password_hash
  * @property string $password_reset_token
  * @property string $email
- * @property string $auth_key
  * @property integer $status
  * @property integer $created_at
  * @property integer $updated_at
