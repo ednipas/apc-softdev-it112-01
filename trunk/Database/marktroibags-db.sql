@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 14, 2015 at 10:12 AM
+-- Generation Time: Mar 14, 2015 at 08:12 PM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -19,19 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `marktroibags-db`
 --
-
--- --------------------------------------------------------
-
---
--- Table structure for table `company`
---
-
-CREATE TABLE IF NOT EXISTS `company` (
-  `id` int(45) NOT NULL,
-  `name` varchar(45) NOT NULL,
-  `description` varchar(45) NOT NULL,
-  `shipping_address` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -120,6 +107,9 @@ CREATE TABLE IF NOT EXISTS `user` (
   `lname` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
   `contact_no` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `company_name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `company_description` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `shipping_address` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `auth_key` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
   `role` int(2) NOT NULL,
   `password_hash` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -127,19 +117,19 @@ CREATE TABLE IF NOT EXISTS `user` (
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `status` smallint(6) NOT NULL DEFAULT '10',
   `created_at` int(11) NOT NULL,
-  `updated_at` int(11) NOT NULL,
-  `company_id` int(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  `updated_at` int(11) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `fname`, `lname`, `contact_no`, `username`, `company_name`, `company_description`, `shipping_address`, `auth_key`, `role`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
+(2, 'marktroi', 'bags', '09272016877', 'marktroibags-admin', '', '', '', 'tboWIZFl47996Fcsfy57YXwS2QoWl8j8', 0, '$2y$13$dLTfvZim.sVdfNOBV/tkcuTTH3SmXounCU4qCvhzrmXoksef1YjHG', NULL, 'marktroibags@gmail.com', 10, 1426359931, 1426359931);
 
 --
 -- Indexes for dumped tables
 --
-
---
--- Indexes for table `company`
---
-ALTER TABLE `company`
- ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `migration`
@@ -175,7 +165,7 @@ ALTER TABLE `report`
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
- ADD PRIMARY KEY (`id`), ADD KEY `company_id` (`company_id`);
+ ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -185,7 +175,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- Constraints for dumped tables
 --
@@ -216,12 +206,6 @@ ADD CONSTRAINT `promotion_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id
 ALTER TABLE `report`
 ADD CONSTRAINT `report_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`),
 ADD CONSTRAINT `report_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
-
---
--- Constraints for table `user`
---
-ALTER TABLE `user`
-ADD CONSTRAINT `user_ibfk_1` FOREIGN KEY (`company_id`) REFERENCES `company` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
