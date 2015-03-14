@@ -183,3 +183,122 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1426359698.26
     'REQUEST_TIME' => 1426359698
 ]
+2015-03-14 20:43:35 [::1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'company_description' cannot be null' in C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\Command.php:768
+Stack trace:
+#0 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\Command.php(768): PDOStatement->execute()
+#1 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRecord.php(462): yii\db\Command->execute()
+#2 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\models\SignupForm.php(72): yii\db\BaseActiveRecord->save()
+#5 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\controllers\SiteController.php(123): frontend\models\SignupForm->signup()
+#6 [internal function]: frontend\controllers\SiteController->actionSignup()
+#7 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#10 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/signup', Array)
+#11 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'company_description' cannot be null
+The SQL being executed was: INSERT INTO `user` (`fname`, `lname`, `contact_no`, `username`, `email`, `password_hash`, `company_name`, `company_description`, `shipping_address`, `auth_key`, `status`, `created_at`, `updated_at`) VALUES ('Dan', 'Gahallon', '09272016871', 'dygahallon', 'dygahallon@gmail.com', '$2y$13$hhbnxr4DkXt8SJGf62FkMOigTBLkWsnre85U4YyZrWyL7fFV6v1Lq', 'Midara', NULL, 'Putatan, Muntinlupa City', 'AyDGA22M2fSbaqGi5bw1oKSHETWFyEgO', 10, 1426362215, 1426362215)' in C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRecord.php(462): yii\db\Command->execute()
+#2 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\db\BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\models\SignupForm.php(72): yii\db\BaseActiveRecord->save()
+#5 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\controllers\SiteController.php(123): frontend\models\SignupForm->signup()
+#6 [internal function]: frontend\controllers\SiteController->actionSignup()
+#7 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#10 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/signup', Array)
+#11 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\DAN\Code.google\apc-softdev-it112-01\trunk\Application\marktroibags3.0\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'company_description' cannot be null
+)
+
+2015-03-14 20:43:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf' => 'akdhUGl6STg8dQZjL0wNYSt.FmcgGSYILxgqNzEtcX4ncwMjAh4HbA=='
+    'SignupForm' => [
+        'fname' => 'Dan'
+        'lname' => 'Gahallon'
+        'contact_no' => '09272016871'
+        'username' => 'dygahallon'
+        'email' => 'dygahallon@gmail.com'
+        'password' => 'qwerty'
+        'company_name' => 'Midara'
+        'company_description' => 'mining'
+        'shipping_address' => 'Putatan, Muntinlupa City'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => 'fa902007ca4e3e120f9c561fe68653921c7d66a515c5d05f840d468e56642ca7s:32:\"V2g3F6DYA9w7Ico0E_KgXW8FM4bskdNT\";'
+    'PHPSESSID' => '48qk3a1mi5rdee7oh12afevig3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '429'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/marktroibags3.0/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,es;q=0.6,fil;q=0.4'
+    'HTTP_COOKIE' => '_csrf=fa902007ca4e3e120f9c561fe68653921c7d66a515c5d05f840d468e56642ca7s%3A32%3A%22V2g3F6DYA9w7Ico0E_KgXW8FM4bskdNT%22%3B; PHPSESSID=48qk3a1mi5rdee7oh12afevig3'
+    'PATH' => 'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\1.0\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\VXIPNP\\WinNT\\Bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/marktroibags3.0/frontend/web/index.php'
+    'REMOTE_PORT' => '53137'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/marktroibags3.0/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/marktroibags3.0/frontend/web/index.php'
+    'PHP_SELF' => '/marktroibags3.0/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1426362213.193
+    'REQUEST_TIME' => 1426362213
+]
