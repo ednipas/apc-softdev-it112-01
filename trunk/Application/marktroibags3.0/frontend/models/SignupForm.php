@@ -27,7 +27,7 @@ class SignupForm extends Model
 			['fname', 'required'],
 			['lname', 'required'],
 			['contact_no', 'required'],
-			
+
             ['username', 'filter', 'filter' => 'trim'],
             ['username', 'required'],
             ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
@@ -62,6 +62,9 @@ class SignupForm extends Model
             $user->username = $this->username;
             $user->email = $this->email;
             $user->setPassword($this->password);
+			$user->company_name = $this->company_name;
+			$user->company_description = $this->company_description;
+			$user->shipping_address = $this->shipping_address;
             $user->generateAuthKey();
             if ($user->save()) {
                 return $user;
