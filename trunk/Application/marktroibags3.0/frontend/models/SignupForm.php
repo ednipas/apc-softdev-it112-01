@@ -23,6 +23,11 @@ class SignupForm extends Model
     public function rules()
     {
         return [
+		
+			['fname', 'required'],
+			['lname', 'required'],
+			['contact_no', 'required'],
+			
             ['username', 'filter', 'filter' => 'trim'],
             ['username', 'required'],
             ['username', 'unique', 'targetClass' => '\common\models\User', 'message' => 'This username has already been taken.'],
@@ -35,6 +40,10 @@ class SignupForm extends Model
 
             ['password', 'required'],
             ['password', 'string', 'min' => 6],
+			
+			
+			
+			
         ];
     }
 
