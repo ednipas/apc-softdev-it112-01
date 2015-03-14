@@ -10,6 +10,9 @@ use Yii;
  */
 class SignupForm extends Model
 {
+	public $fname
+	public $lname
+	public $contact_no	
     public $username;
     public $email;
     public $password;
@@ -44,6 +47,9 @@ class SignupForm extends Model
     {
         if ($this->validate()) {
             $user = new User();
+			$user->fname = $this->fname;
+			$user->lname = $this->lname;
+			$user->contact_no = $this->contact_no;
             $user->username = $this->username;
             $user->email = $this->email;
             $user->setPassword($this->password);
