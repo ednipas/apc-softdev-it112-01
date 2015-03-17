@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 14, 2015 at 08:12 PM
+-- Generation Time: Mar 17, 2015 at 02:42 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `contact_no` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `company_name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `company_description` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `company_description` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `shipping_address` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `auth_key` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
   `role` int(2) NOT NULL,
@@ -118,14 +118,15 @@ CREATE TABLE IF NOT EXISTS `user` (
   `status` smallint(6) NOT NULL DEFAULT '10',
   `created_at` int(11) NOT NULL,
   `updated_at` int(11) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `user`
 --
 
 INSERT INTO `user` (`id`, `fname`, `lname`, `contact_no`, `username`, `company_name`, `company_description`, `shipping_address`, `auth_key`, `role`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
-(2, 'marktroi', 'bags', '09272016877', 'marktroibags-admin', '', '', '', 'tboWIZFl47996Fcsfy57YXwS2QoWl8j8', 0, '$2y$13$dLTfvZim.sVdfNOBV/tkcuTTH3SmXounCU4qCvhzrmXoksef1YjHG', NULL, 'marktroibags@gmail.com', 10, 1426359931, 1426359931);
+(2, 'marktroi', 'bags', '09272016877', 'marktroibags-admin', 'marktroibags', 'manufacturing', 'Alabang, Muntinlupa', 'tboWIZFl47996Fcsfy57YXwS2QoWl8j8', 0, '$2y$13$dLTfvZim.sVdfNOBV/tkcuTTH3SmXounCU4qCvhzrmXoksef1YjHG', NULL, 'marktroibags@gmail.com', 10, 1426359931, 1426359931),
+(3, 'Dan', 'Gahallon', '09272016871', 'dygahallon', 'Midara', NULL, 'Putatan, Muntinlupa City', 'zwBKyY3whva55tETwtir4sBAp4jOExhZ', 0, '$2y$13$d6hhXgXtZDPmAcTnQAVODOp7AnSRULNhHmKIdjlOfNXHY/73wmUNi', NULL, 'dygahallon@gmail.com', 10, 1426362333, 1426362333);
 
 --
 -- Indexes for dumped tables
@@ -175,7 +176,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
 --
 -- Constraints for dumped tables
 --
